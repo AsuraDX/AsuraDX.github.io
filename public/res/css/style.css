@@ -5,7 +5,7 @@
 
 /* #region Base styles: opinionated defaults */
 html {
-	color: #222;
+	color: var(--asura-white);
 	font: normal 20px / 1.25 sans-serif;
 	scroll-behavior: smooth;
 }
@@ -61,6 +61,16 @@ textarea {
 
 :root {
 	/* Colour palette */
+	--asura-red: #FF3131;
+	--asura-white: #E1E1E1;
+	--asura-dark: #2F2F2F;
+	--asura-light: #858585;
+}
+
+body {
+	background: center / cover no-repeat linear-gradient(to top, var(--asura-dark), var(--asura-light));
+	height: 100vh;
+	width: 100%;
 }
 
 h1 {
