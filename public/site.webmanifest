@@ -6,7 +6,7 @@
 	"theme_color": "#FF3131",
 	"background_color": "#2F2F2F",
 	"icons": [{
-		"src": "./res/assets/img/icon.png",
+		"src": "./res/assets/img/Branding/Logos/Emblem.png",
 		"type": "image/png",
 		"sizes": "192x192"
 	}]
