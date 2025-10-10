@@ -3,10 +3,14 @@
 /* What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal, Kroc Camen, and the H5BP dev community and team. */
 
+/* #region Imports */
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* #endregion */
+
 /* #region Base styles: opinionated defaults */
 html {
 	color: var(--asura-white);
-	font: normal 20px / 1.25 sans-serif;
+	font: normal 20px / 1.25 Montserrat, sans-serif;
 	scroll-behavior: smooth;
 }
 
@@ -74,7 +78,7 @@ body {
 }
 
 h1 {
-	font-size: 2.5em;
+	font: bold 2.5em / 1 Aldrich, sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
