@@ -3,10 +3,14 @@
 /* What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal, Kroc Camen, and the H5BP dev community and team. */
 
+/* #region Imports */
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* #endregion */
+
 /* #region Base styles: opinionated defaults */
 html {
-	color: #222;
-	font: normal 20px / 1.25 sans-serif;
+	color: var(--asura-white);
+	font: normal 20px / 1.25 Montserrat, sans-serif;
 	scroll-behavior: smooth;
 }
 
@@ -61,10 +65,20 @@ textarea {
 
 :root {
 	/* Colour palette */
+	--asura-red: #FF3131;
+	--asura-white: #E1E1E1;
+	--asura-dark: #2F2F2F;
+	--asura-light: #858585;
+}
+
+body {
+	background: center / cover no-repeat url("../assets/img/Branding/Elements/Background.jpg"), linear-gradient(to bottom, var(--asura-dark), var(--asura-light));
+	height: 100vh;
+	width: 100%;
 }
 
 h1 {
-	font-size: 2.5em;
+	font: bold 2.5em / 1 Aldrich, sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
@@ -96,6 +110,7 @@ p {
 }
 
 a, button {
+	color: var(--asura-red);
 	transition-property: all;
 }
 /* #endregion */
@@ -121,6 +136,17 @@ a, button {
 /* #endregion */
 
 /* #region Components */
+.modal {
+	background-color: var(--asura-light);
+	border: .25rem solid var(--asura-white);
+	border-radius: .25rem;
+	padding: .5rem;
+}
+
+.modal>.title {
+	text-align: center;
+	text-shadow: 0 .125rem .25rem var(--asura-dark);
+}
 /* #endregion */
 
 /* #region Navigation bar */

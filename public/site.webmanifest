@@ -1,12 +1,12 @@
 {
-	"name": "",
-	"short_name": "",
-	"description": "",
+	"name": "AsuraDX | Official Site",
+	"short_name": "AsuraDX Site",
+	"description": "The official creator profile & portfolio of AsuraDX.",
 	"start_url": "./",
-	"theme_color": "#fafafa",
-	"background_color": "#fafafa",
+	"theme_color": "#FF3131",
+	"background_color": "#2F2F2F",
 	"icons": [{
-		"src": "./res/assets/img/icon.png",
+		"src": "./res/assets/img/Branding/Logos/Emblem.png",
 		"type": "image/png",
 		"sizes": "192x192"
 	}]
