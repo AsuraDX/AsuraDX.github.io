@@ -110,6 +110,7 @@ p {
 }
 
 a, button {
+	color: var(--asura-red);
 	transition-property: all;
 }
 /* #endregion */
